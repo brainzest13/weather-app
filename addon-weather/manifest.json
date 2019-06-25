@@ -1,0 +1,18 @@
+{
+
+  "description": "a weather app in React using openWeather API",
+  "manifest_version": 2,
+  "name": "Weather App",
+  "version": "1.0",
+  "homepage_url": "https://github.com/brainzest/Weather-App",
+  "icons": {
+    "32": "icons/logo_32.png",
+    "64": "icons/logo_64.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/logo_32.png",
+    "default_title": "Weather",
+    "default_popup": "popup/index.html"
+  }
+
+}

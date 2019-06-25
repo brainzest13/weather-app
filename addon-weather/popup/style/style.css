@@ -1,0 +1,91 @@
+
+body{
+  width: 450px;
+}
+.input-group{
+  margin: 20px 0px;
+}
+.search{
+  background-color: #009688;
+}
+
+.input-group-lg > .form-control, .input-group-lg >
+.input-group-addon, .input-group-lg > .input-group-btn >
+.btn {
+    height: 40px;
+    font-size: 12px;
+    border-radius: .3em !important;
+  }
+.table{
+  table-layout:fixed;
+
+}
+.table td, th{
+  vertical-align: :middle !important;
+  text-align: center !important;
+  font-size: small;
+  text-overflow: ellipsis;
+}
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+   background-color: white;
+ }
+.table th{
+  background-color: #2d2f3a;
+  color: #009688;
+}
+.weather-header{
+  font-family: helvetica,arial,sans-serif;
+  color: #00afbe;
+}
+.weather-current{
+  font-weight: 700;
+  font-size: small;
+  color: #00afbe;
+
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1000px) {
+
+  .chart-line {
+    width: 200px;
+    display: inline-block;
+  }
+
+
+}
+@media only screen and (max-width: 500px) {
+    .chart-line {
+      display: inline-block;
+      width: 75px !important;
+
+      word-wrap: break-word;
+    }
+    .weather-current{
+      font-weight: 200;
+      font-size: 12px;
+
+    }
+    .weather-header{
+      font-size: 10px;
+    }
+    h3, h4,td,h6{
+      font-size: 12px;
+    }
+    .span{
+      font-size: 10px;
+    }
+
+
+}
+
+@media screen and (min-width:500px and max-width: 700px) {
+
+  .chart-line {
+    width: 100px;
+    display: inline-block;
+  }
+
+
+}
